@@ -51,6 +51,10 @@ node ahead of when our node actually finishes. We use a combination of
         total += l.weight for l in @links
         "#{@name} ⇒ " + ("#{l.next?.name} (#{Math.round(l.weight/total*100)}%)" for l in @links).join ', '
 
+      preload: ->
+        console.log "Loading", @src
+        maybeFetch @src
+
       play: (at=context.currentTime+0.5) ->
         console.log "Playing", @src, "at", at
         setTimeout =>
@@ -61,10 +65,13 @@ node ahead of when our node actually finishes. We use a combination of
         .then (audio) =>
           time = audio.buffer.duration * 1000 - 500 # 500ms grace period
           scheduled = at + audio.buffer.duration
-          setTimeout =>
-            console.log "Timer fired for next load"
-            @getNext()?.play(scheduled)
-          ,time
+          next = @getNext()
+          if next
+            next.preload()
+            setTimeout =>
+              console.log "Timer fired for next load"
+              next.play(scheduled)
+            ,time
           audio.onended = @ended.bind(this)
 
       ended: ->

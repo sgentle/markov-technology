@@ -60,6 +60,10 @@
         return results;
       }).call(this)).join(', ');
     },
+    preload: function() {
+      console.log("Loading", this.src);
+      return maybeFetch(this.src);
+    },
     play: function(at) {
       if (at == null) {
         at = context.currentTime + 0.5;
@@ -73,14 +77,17 @@
       })(this), (at - context.currentTime) * 1000);
       return play(this.src, at).then((function(_this) {
         return function(audio) {
-          var scheduled, time;
+          var next, scheduled, time;
           time = audio.buffer.duration * 1000 - 500;
           scheduled = at + audio.buffer.duration;
-          setTimeout(function() {
-            var ref;
-            console.log("Timer fired for next load");
-            return (ref = _this.getNext()) != null ? ref.play(scheduled) : void 0;
-          }, time);
+          next = _this.getNext();
+          if (next) {
+            next.preload();
+            setTimeout(function() {
+              console.log("Timer fired for next load");
+              return next.play(scheduled);
+            }, time);
+          }
           return audio.onended = _this.ended.bind(_this);
         };
       })(this));
