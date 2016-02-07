@@ -55,7 +55,7 @@ node ahead of when our node actually finishes. We use a combination of
         console.log "Loading", @src
         maybeFetch @src
 
-      play: (at=context.currentTime+0.5) ->
+      play: (at=context.currentTime+0.1) ->
         console.log "Playing", @src, "at", at
         setTimeout =>
           $('#log').innerHTML += @display() + '<br>'
@@ -200,4 +200,4 @@ Next we add each link. There are many links.
 
 And, finally, start the thing!
 
-    n.intro.play()
+    n.intro.preload().then -> n.intro.play()

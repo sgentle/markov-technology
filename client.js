@@ -66,7 +66,7 @@
     },
     play: function(at) {
       if (at == null) {
-        at = context.currentTime + 0.5;
+        at = context.currentTime + 0.1;
       }
       console.log("Playing", this.src, "at", at);
       setTimeout((function(_this) {
@@ -220,6 +220,8 @@
 
   addLinks.apply(n);
 
-  n.intro.play();
+  n.intro.preload().then(function() {
+    return n.intro.play();
+  });
 
 }).call(this);
