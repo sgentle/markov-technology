@@ -1,8 +1,39 @@
 <!doctype html>
 <head>
   <title>Markov Technology</title>
+  <style>
+    body { margin: 0 }
+    #infobar {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 2em;
+    }
+    @keyframes pulse {
+      0% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1.0;
+      }
+    }
+  </style>
 </head>
 <body>
-  <div id="log"></div>
+  <svg version="1.1"
+       baseProfile="full"
+       width="100%" height="100%"
+       viewbox="0 0 1600 900"
+       xmlns="http://www.w3.org/2000/svg">
+
+
+  </svg>
+  <div id="infobar">
+    <span style="float: right">
+      🎵 A. Skillz &amp; Krafty Kuts - Tricka Technology (<a href="https://geo.itunes.apple.com/us/album/tricka-technology-feat.-t.c./id546601472?i=546601621&mt=1&app=music">iTunes</a> <a href="https://www.amazon.com/dp/B008O3JH3G/">Amazon</a>)
+    </span>
+  </div>
+  <script src="fetch.js"></script>
   <script src="client.js"></script>
 </body>

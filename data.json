@@ -1,0 +1,545 @@
+{
+  "groups": {
+    "bounce": {
+      "fill": "#2196F3",
+      "stroke": "#1976D2",
+      "pulse": "#E3F2FD",
+      "label": {
+        "x": 200,
+        "y": 640,
+        "text": ["Bounce"]
+      },
+      "shade": {
+        "x": 200,
+        "y": 640,
+        "r": 400,
+        "fill": "#BBDEFB"
+      }
+    },
+    "youknowwhat": {
+      "fill": "#FFEB3B",
+      "stroke": "#FDD835",
+      "pulse": "#FFFDE7",
+      "label": {
+        "x": 225,
+        "y": 150,
+        "text": ["You", "Know", "What"]
+      },
+      "shade": {
+        "x": 225,
+        "y": 150,
+        "r": 400,
+        "fill": "#FFF9C4"
+      }
+    },
+    "instr": {
+      "fill": "#FF5722",
+      "stroke": "#E64A19",
+      "pulse": "#FBE9E7",
+      "label": {
+        "x": 1350,
+        "y": 575,
+        "text": ["Guitar"]
+      },
+      "shade": {
+        "x": 1350,
+        "y": 575,
+        "r": 400,
+        "fill": "#FFCCBC"
+      }
+    },
+    "putemup": {
+      "fill": "#E91E63",
+      "stroke": "#C2185B",
+      "pulse": "#FCE4EC",
+      "label": {
+        "x": 1075,
+        "y": 115,
+        "text": ["Put Em", "Up"]
+      },
+      "shade": {
+        "x": 1075,
+        "y": 115,
+        "r": 400,
+        "fill": "#F8BBD0"
+      }
+    },
+    "hipstep": {
+      "fill": "#673AB7",
+      "stroke": "#4527A0",
+      "pulse": "#EDE7F6",
+      "label": {
+        "x": 1400,
+        "y": 115,
+        "text": ["Hip", "Step"]
+      },
+      "shade": {
+        "x": 1400,
+        "y": 115,
+        "r": 250,
+        "fill": "#D1C4E9"
+      }
+    },
+    "markov": {
+      "fill": "#FF9800",
+      "stroke": "#FF9800",
+      "pulse": "#FFF3E0",
+      "label": {
+        "x": 800,
+        "y": 475,
+        "text": ["Markov", "Technology"]
+      },
+      "shade": {
+        "x": 800,
+        "y": 475,
+        "r": 400,
+        "fill": "#FFE0B2"
+      }
+    }
+  },
+  "nodes": {
+    "intro": {
+      "x": 750, "y": 50,
+      "label": "Intro",
+      "links": {
+        "1": ["tricka_1_intro"]
+      }
+    },
+    "intro2": {
+      "x": 850, "y": 50,
+      "label": "Intro #2",
+      "links": {
+        "1": ["tricka_1_intro2"]
+      }
+    },
+
+
+    "tricka_1_intro": {
+      "x": 750, "y": 200,
+      "group": "markov",
+      "label": "Intro",
+      "links": {
+        "1": ["tricka_2_plain"]
+      }
+    },
+    "tricka_1_intro2": {
+      "x": 850, "y": 200,
+      "group": "markov",
+      "label": "Intro #2",
+      "links": {
+        "1": ["tricka_2_plain"]
+      }
+    },
+
+
+    "tricka_1_plain": {
+      "x": 1100, "y": 425,
+      "group": "markov",
+      "label": "Plain",
+      "links": {
+        "1": [
+          "tricka_2_plain", "tricka_2_uh", "tricka_2_yeah", "tricka_2_tricka",
+          "tricka_2_outro_tricka_cmon", "tricka_2_outro_what_what"
+        ]
+      }
+    },
+    "tricka_1_cmon": {
+      "x": 500, "y": 425,
+      "group": "markov",
+      "label": "Cmon",
+      "links": {
+        "1": [
+          "tricka_2_plain", "tricka_2_uh", "tricka_2_yeah", "tricka_2_tricka",
+          "tricka_2_outro_tricka_cmon", "tricka_2_outro_what_what"
+        ]
+      }
+    },
+    "tricka_1_uh": {
+      "x": 1066.5, "y": 312.5,
+      "group": "markov",
+      "label": "Uh",
+      "links": {
+        "1": [
+          "tricka_2_plain", "tricka_2_uh", "tricka_2_yeah", "tricka_2_tricka",
+          "tricka_2_outro_tricka_cmon", "tricka_2_outro_what_what"
+        ]
+      }
+    },
+    "tricka_1_trickawhat": {
+      "x": 533.5, "y": 312.5,
+      "group": "markov",
+      "label": "Trickawha",
+      "links": {
+        "1": [
+          "tricka_2_plain", "tricka_2_uh", "tricka_2_yeah", "tricka_2_tricka",
+          "tricka_2_outro_tricka_cmon", "tricka_2_outro_what_what"
+        ]
+      }
+    },
+    "tricka_1_tricka_tricka": {
+      "x": 975, "y": 230,
+      "group": "markov",
+      "label": "Tricka",
+      "links": {
+        "1": [
+          "tricka_2_plain", "tricka_2_uh", "tricka_2_yeah", "tricka_2_tricka",
+          "tricka_2_outro_tricka_cmon", "tricka_2_outro_what_what"
+        ]
+      }
+    },
+    "tricka_1_putemup": {
+      "x": 625, "y": 230,
+      "label": "Putemup",
+      "group": "markov",
+      "links": {
+        "1": ["tricka_2_putemup", "tricka_2_outro_putemup"]
+      }
+    },
+
+
+    "tricka_2_plain": {
+      "x": 533.5, "y": 687.5,
+      "group": "markov",
+      "label": "Plain",
+      "links": {
+        "1": ["tricka_1_plain", "tricka_1_cmon", "tricka_1_uh", "tricka_1_trickawhat", "tricka_1_putemup"]
+      }
+    },
+    "tricka_2_uh": {
+      "x": 1100, "y": 575,
+      "group": "markov",
+      "label": "Uh",
+      "links": {
+        "1": ["tricka_1_plain", "tricka_1_cmon", "tricka_1_uh", "tricka_1_trickawhat", "tricka_1_putemup"]
+      }
+    },
+    "tricka_2_yeah": {
+      "x": 500, "y": 575,
+      "group": "markov",
+      "label": "Yeah",
+      "links": {
+        "1": ["tricka_1_plain", "tricka_1_cmon", "tricka_1_uh", "tricka_1_trickawhat", "tricka_1_putemup"]
+      }
+    },
+    "tricka_2_tricka": {
+      "x": 1066.5, "y": 687.5,
+      "group": "markov",
+      "label": "Tricka",
+      "links": {
+        "1": ["tricka_1_plain", "tricka_1_cmon", "tricka_1_uh", "tricka_1_trickawhat", "tricka_1_putemup"]
+      }
+    },
+    "tricka_2_putemup": {
+      "x": 625, "y": 770,
+      "group": "markov",
+      "label": "Putemup",
+      "links": {
+        "1": ["tricka_1_plain", "tricka_1_cmon", "tricka_1_uh", "tricka_1_trickawhat", "tricka_1_putemup"]
+      }
+    },
+
+
+    "tricka_2_outro_tricka_cmon": {
+      "x": 750, "y": 800,
+      "group": "markov",
+      "label": "Outro #1",
+      "links": {
+        "1": ["instr1_1_intro", "instr2_1_intro", "bounce_1_intro"]
+      }
+    },
+    "tricka_2_outro_what_what": {
+      "x": 850, "y": 800,
+      "group": "markov",
+      "label": "Outro #2",
+      "links": {
+        "1": ["instr1_1_intro", "instr2_1_intro", "bounce_1_intro"]
+      }
+    },
+    "tricka_2_outro_putemup": {
+      "x": 975, "y": 770,
+      "group": "markov",
+      "label": "Outro #3",
+      "links": {
+        "1": ["instr1_1_intro", "instr2_1_intro", "bounce_1_intro"]
+      }
+    },
+
+
+    "instr1_1_intro": {
+      "x": 1200, "y": 725,
+      "group": "instr",
+      "label": "Intro",
+      "links": {
+        "1": ["instr1_2_plain"]
+      }
+    },
+    "instr1_1_plain": {
+      "x": 1200, "y": 475,
+      "group": "instr",
+      "label": "1-1",
+      "links": {
+        "1": ["instr1_2_plain", "instr1_2_outro"]
+      }
+    },
+    "instr1_2_plain": {
+      "x": 1300, "y": 600,
+      "group": "instr",
+      "label": "1-2",
+      "links": {
+        "1": ["instr1_1_plain", "instr2_1"]
+      }
+    },
+    "instr1_2_outro": {
+      "x": 1300, "y": 475,
+      "group": "instr",
+      "label": "Outro",
+      "links": {
+        "1": ["bridge1_1", "intro2"]
+      }
+    },
+
+
+    "instr2_1_intro": {
+      "x": 1400, "y": 800,
+      "group": "instr",
+      "label": "Intro #2",
+      "links": {
+        "1": ["instr2_2_1", "instr2_2_2"]
+      }
+    },
+    "instr2_1": {
+      "x": 1400, "y": 675,
+      "group": "instr",
+      "label": "2-1 #1",
+      "links": {
+        "1": ["instr2_2_1", "instr2_2_2"]
+      }
+    },
+    "instr2_1_scratch": {
+      "x": 1400, "y": 550,
+      "group": "instr",
+      "label": "2-1 #2",
+      "links": {
+        "1": ["instr2_2_outro"]
+      }
+    },
+    "instr2_2_1": {
+      "x": 1500, "y": 675,
+      "group": "instr",
+      "label": "2-2 #1",
+      "links": {
+        "1": ["instr2_1", "instr2_1_scratch"]
+      }
+    },
+    "instr2_2_2": {
+      "x": 1500, "y": 550,
+      "group": "instr",
+      "label": "2-2 #2",
+      "links": {
+        "1": ["instr2_1", "instr2_1_scratch"]
+      }
+    },
+    "instr2_2_outro": {
+      "x": 1500, "y": 425,
+      "group": "instr",
+      "label": "Outro #2",
+      "links": {
+        "1": ["hipstep1_1", "hipstep2_1_intro"]
+      }
+    },
+
+
+    "bridge1_1": {
+      "x": 1300, "y": 350,
+      "group": "instr",
+      "label": "Bridge #1",
+      "links": {
+        "1": ["bridge1_2"]
+      }
+    },
+    "bridge1_2": {
+      "group": "instr",
+      "label": "Bridge #2",
+      "x": 1400, "y": 350,
+      "links": {
+        "1": ["hipstep1_1"]
+      }
+    },
+
+
+    "hipstep1_1": {
+      "x": 1400, "y": 200,
+      "group": "hipstep",
+      "label": "Plain 1",
+      "links": {
+        "1": ["hipstep1_2"]
+      }
+    },
+    "hipstep1_2": {
+      "x": 1500, "y": 50,
+      "group": "hipstep",
+      "label": "Plain 2",
+      "links": {
+        "1": ["hipstep1_1"],
+        "2": ["hipstep2_1_guitar"]
+      }
+    },
+    "hipstep2_1_intro": {
+      "x": 1500, "y": 200,
+      "group": "hipstep",
+      "label": "Synth 1",
+      "links": {
+        "1": ["hipstep2_2"]
+      }
+    },
+    "hipstep2_1_guitar": {
+      "x": 1400, "y": 50,
+      "group": "hipstep",
+      "label": "Guitar 1",
+      "links": {
+        "1": ["hipstep2_2"],
+        "2": ["hipstep2_2_guitar_outro"]
+      }
+    },
+    "hipstep2_2": {
+      "x": 1300, "y": 200,
+      "group": "hipstep",
+      "label": "Synth 2",
+      "links": {
+        "1": ["hipstep2_1_guitar"]
+      }
+    },
+    "hipstep2_2_guitar_outro": {
+      "x": 1300, "y": 50,
+      "group": "hipstep",
+      "label": "Guitar 2",
+      "links": {
+        "1": ["putemup_1_intro"]
+      }
+    },
+
+
+    "putemup_1_intro": {
+      "x": 1175, "y": 50,
+      "group": "putemup",
+      "label": "Intro",
+      "links": {
+        "1": ["putemup_2"]
+      }
+    },
+    "putemup_2": {
+      "x": 1075, "y": 50,
+      "group": "putemup",
+      "label": "Part 2",
+      "links": {
+        "1": ["putemup_1"]
+      }
+    },
+    "putemup_1": {
+      "x": 1075, "y": 175,
+      "group": "putemup",
+      "label": "Part 1",
+      "links": {
+        "1": ["putemup_2"],
+        "2": ["putemup_2_outro"]
+      }
+    },
+    "putemup_2_outro": {
+      "x": 975, "y": 50,
+      "group": "putemup",
+      "label": "Outro",
+      "links": {
+        "1": ["tricka_1_intro"]
+      }
+    },
+
+
+    "bounce_1_intro": {
+      "x": 200, "y": 800,
+      "group": "bounce",
+      "label": "Intro",
+      "links": {
+        "1": ["bounce_2_yeah", "bounce_2_uh"]
+      }
+    },
+    "bounce_1_uh": {
+      "x": 300, "y": 550,
+      "group": "bounce",
+      "label": "Uh #1",
+      "links": {
+        "1": ["bounce_2_yeah", "bounce_2_uh"],
+        "2": ["bounce_2_outro"]
+      }
+    },
+    "bounce_1_yeah": {
+      "x": 100, "y": 550,
+      "group": "bounce",
+      "label": "Yeah #1",
+      "links": {
+        "1": ["bounce_2_yeah", "bounce_2_uh"],
+        "2": ["bounce_2_outro"]
+      }
+    },
+    "bounce_2_uh": {
+      "x": 300, "y": 675,
+      "group": "bounce",
+      "label": "Uh #2",
+      "links": {
+        "1": ["bounce_1_uh"]
+      }
+    },
+    "bounce_2_yeah": {
+      "x": 100, "y": 675,
+      "group": "bounce",
+      "label": "Yeah #2",
+      "links": {
+        "1": ["bounce_1_yeah"]
+      }
+    },
+    "bounce_2_outro": {
+      "x": 200, "y": 450,
+      "group": "bounce",
+      "label": "Outro",
+      "links": {
+        "1": ["youknowwhat_1"]
+      }
+    },
+
+
+    "youknowwhat_1": {
+      "x": 100, "y": 350,
+      "group": "youknowwhat",
+      "label": "#1",
+      "links": {
+        "1": ["youknowwhat_2", "youknowwhat_3"],
+        "2": ["youknowwhat_outro"]
+      }
+    },
+    "youknowwhat_2": {
+      "x": 225, "y": 225,
+      "group": "youknowwhat",
+      "label": "#2",
+      "links": {
+        "1": ["youknowwhat_1", "youknowwhat_3"],
+        "2": ["youknowwhat_outro"]
+      }
+    },
+    "youknowwhat_3": {
+      "x": 100, "y": 100,
+      "group": "youknowwhat",
+      "label": "#3",
+      "links": {
+        "1": ["youknowwhat_1", "youknowwhat_2"],
+        "2": ["youknowwhat_outro"]
+      }
+    },
+    "youknowwhat_outro": {
+      "x": 400, "y": 200,
+      "group": "youknowwhat",
+      "label": "Outro",
+      "links": {
+        "1": ["tricka_1_intro2"]
+      }
+    }
+  }
+}
