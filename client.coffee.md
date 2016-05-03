@@ -33,7 +33,6 @@ This loads audio data from the server, caching the audio buffer in memory for fu
           node = context.createBufferSource()
           node.buffer = buffer
           node.connect groupPulser.node
-          console.log "buf", buffer.length, buffer.duration, buffer.sampleRate, buffer.length/buffer.sampleRate
           if at then node.start(at, 0, buffer.duration) else node.start(context.currentTime, 0, buffer.duration)
           node
 
@@ -392,6 +391,12 @@ We create nodes for every media file we're using. The nodes are not preloaded,
 which probably means it will stutter if the network connection is too slow and
 the cache is cold.
 
+Firefox has issues with inaccurate mp3 buffer length, so we need to format
+sniff, use ogg, and fall back to mp3 if it's not available.
+
+    canOgg = document.createElement('audio').canPlayType('audio/ogg')
+    ext = if canOgg then 'ogg' else 'mp3'
+
     nodes = {}
     fetch('data.json')
     .then (result) -> result.json()
@@ -399,7 +404,7 @@ the cache is cold.
       for groupName, group of data.groups
         addGroup groupName, group
 
-      nodes[k] = makeNode "media/#{k}.mp3", v for k, v of data.nodes
+      nodes[k] = makeNode "media/#{k}.#{ext}", v for k, v of data.nodes
 
       for k, v of data.nodes
         for weight, links of v.links
