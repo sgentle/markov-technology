@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "5.1/OSX64" 1454868181
+<REAPER_PROJECT 0.1 "5.1/OSX64" 1462250652
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -13,7 +13,7 @@
   TIMEMODE 1 5 -1 30 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 98.96907216494846
+  CURSOR 3.53460972017673
   ZOOM 7.27069176936178 0 0
   VZOOMEX 5
   USE_REC_CFG 0
@@ -42,7 +42,7 @@
   TAKELANE 1
   SAMPLERATE 44100 0 0
   <RENDER_CFG
-    bDNwbSAAAAABAAAA/////wAAAAADAAAAQAEAAAAAAAA=
+    bDNwbcAAAAABAAAA//////////8EAAAAwAAAAAAAAAA=
   >
   LOCK 1
   <METRONOME 7 2
@@ -100,7 +100,7 @@
   <PROJBAY
   >
   <TRACK {48434876-A7BA-0A40-A9EA-83A961CA15DD}
-    NAME Intro
+    NAME intro
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -111,7 +111,7 @@
     BUSCOMP 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0
@@ -131,7 +131,7 @@
       FADEIN 1 0.382395 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {9729563B-7E55-8F46-AC79-9A264AA268AD}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -177,7 +177,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {004BD60B-38B4-AF4B-B656-64A9286CB3F1}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -223,7 +223,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {46487506-B8EE-1443-B3F7-0115D9A8B27F}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -269,7 +269,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {1B007843-EE74-3B4C-A050-8BBCD0591AA6}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -315,7 +315,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {48D61D8A-3118-5242-9410-B9466B44991C}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -361,7 +361,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {5C8BDAA4-B936-4142-8BEE-CDAAE109692F}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -407,7 +407,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {ED7BAC08-C35D-F64F-82EE-AEFC44931C1B}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -453,7 +453,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {1515D901-8660-2D4A-875C-8BF234AE4709}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -499,7 +499,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {A3B07CC2-AB87-6147-8982-D51AF1CCC22E}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -545,7 +545,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {C1F2EC2D-2B6B-F44C-B8DE-EF3581E8EFB2}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -591,7 +591,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {011303EA-48C2-A94D-B2BB-E624D8382A78}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -637,7 +637,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {C2B713E3-2AC7-384B-8145-F28573F7B428}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -683,7 +683,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {D11340E7-249B-5C4D-BC19-1357EBB52C91}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -729,7 +729,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {3C457E9A-1FF6-7A4B-B611-A476B3485098}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -755,7 +755,7 @@
     BUSCOMP 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0
@@ -775,7 +775,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {22AC30E5-9E7E-8344-B47D-ECD7CA965B50}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -821,7 +821,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {FC319500-DDD6-0841-B9A8-01C95AB2B065}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -867,7 +867,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {48A17D7F-1356-574C-8A17-3B3092E3C6E2}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -913,7 +913,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {B631A046-0DCE-9F4F-9FED-951B65E2F2A4}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -959,7 +959,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {EB683026-12BD-E545-930E-D3509597DD6F}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1005,7 +1005,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {69D3C8DB-8442-CA4D-9DFB-48648398774C}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1051,7 +1051,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {32AFE630-0434-0642-ADF7-2E7C84274429}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1097,7 +1097,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {F3AA7D62-47F8-2A48-B6E2-0921D8A642BF}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1143,7 +1143,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {C0893D46-6352-8D4B-BAE3-A8B1770E8B1A}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1189,7 +1189,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {F78FE76A-F5D9-094F-825E-3EDBF2CC39C9}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1235,7 +1235,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {60AA4815-DDA6-5E4C-A445-DBB38E71FE69}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1281,7 +1281,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {CEFF0CB5-1484-1546-99CC-FD1D8E021C16}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1327,7 +1327,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {16F4718A-3ADB-2548-9F6D-19F31A399869}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1373,7 +1373,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {456716B3-68FD-8F40-933D-4DEB719CFCA8}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1419,7 +1419,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {393F4B2A-A434-444D-A04C-5924B075D2EF}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1465,7 +1465,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {F16F0D5B-75DA-8044-916C-9507FC97D1B4}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1511,7 +1511,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {EB6FEC4E-E410-3349-9CFF-0920B82D28C3}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1557,7 +1557,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {99597B3D-64A7-7745-86A4-342C02A631EE}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1603,7 +1603,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {C01CBA36-1294-5A48-8592-2363AD3165D2}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1649,7 +1649,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {16BF1D0B-0243-0D44-95FE-0270BD132E35}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1695,7 +1695,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {CDA316A6-1C7F-3641-AA57-B54423ADB104}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1741,7 +1741,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {D9120283-5A28-CB4B-9A36-8073A3F0C772}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1787,7 +1787,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {049D1C2F-C484-4541-BC8D-38F9E8E2B435}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1833,7 +1833,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {5B0E244E-C24D-1F48-BC0A-62F9263D5199}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1879,7 +1879,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {57DF7831-22D9-7140-8EED-F21D42932425}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1925,7 +1925,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {4D7C7152-5A2B-F04E-B363-3493FA70B0E0}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -1971,7 +1971,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {15390A06-367E-814E-922E-FF4CAA1AF6AE}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2017,7 +2017,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {8B8E040F-436D-2249-B6DF-53F9F45D33D5}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2063,7 +2063,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {3F60F520-A60D-A044-9C5A-41DA87B95024}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2109,7 +2109,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {32492853-6D3B-2948-BAD0-87354A5C6CD0}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2155,7 +2155,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {57AE3D94-BF53-8A48-A52D-69963ACBB799}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2201,7 +2201,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {708A6F80-CEC1-474A-8960-AD11AB28E6AA}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2247,7 +2247,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {C76B1ABA-5790-F349-99DC-53337F6D351B}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2293,7 +2293,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {4ABD269E-1CEE-0D41-A0DC-EE25CB51F497}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2339,7 +2339,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {BD489B7C-24CA-714A-9660-3A3F0BFC3579}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2385,7 +2385,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {BEDD62C3-2FCF-5B46-B590-0FE865ED19C5}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2431,7 +2431,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {2757490A-267D-4446-8D60-9FFD224EF57B}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2477,7 +2477,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {9A129B4E-BFA3-4F4F-9242-AEA0DAAFDE57}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2523,7 +2523,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {CC0051E8-1B4D-0D44-8DBC-6821F3A2BAA1}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2569,7 +2569,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {B6F3F6B1-7F34-114C-93B5-7D2D9A5838DE}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2615,7 +2615,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {3C7BFD4F-678D-B24C-A581-A6DBCDE09E4C}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2661,7 +2661,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {002B33F3-5C26-3945-BEC7-49A4FA741579}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2707,7 +2707,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {D2D0B836-2A0D-224A-8124-5F8652292ED6}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2753,7 +2753,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {3C8BEA31-CED2-6A47-A5B7-08BBE2E7B220}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2799,7 +2799,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {E8200F55-190F-6F49-A8A8-AB7EA7BFA867}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2845,7 +2845,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {C9AB8389-17C7-0741-A5A4-02A1869A4517}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2891,7 +2891,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {98A8C29C-E091-E647-B0ED-905EF89B3D72}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2937,7 +2937,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {9EEB7329-C396-6445-8DBB-7766930126B0}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -2983,7 +2983,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {27B01AA8-DF06-3C43-8B5E-C8037785C524}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3029,7 +3029,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {F656C9D5-F9C2-444D-B65F-3F6B1E48D74C}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3075,7 +3075,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {744E17B6-69BB-5447-933E-65FE090C26A5}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3121,7 +3121,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {2799C579-F48E-6C45-B7A2-533DA4E0C2E1}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3167,7 +3167,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {265C239A-1865-5341-9482-1907BC0B9701}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3213,7 +3213,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {10005A48-474D-2846-9270-8B7E81B41436}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3259,7 +3259,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {B1F1ABA2-80BA-254E-8C66-141B8450403E}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3305,7 +3305,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {F89AF8BF-6E5F-BA47-A0F2-17A0B0C30A20}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3351,7 +3351,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {65B13428-B780-5942-8309-35EE44279121}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3397,7 +3397,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {40D427E5-42C2-EC4A-BDE6-5D1408BC836F}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3443,7 +3443,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {FC41A711-1784-114B-9134-6658CD4BFBAB}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3489,7 +3489,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {866FAE80-C990-3647-A700-E0419D1B977A}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3535,7 +3535,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {D272B979-7C45-CF48-8639-0BA0CB98E230}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3581,7 +3581,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {49312888-2696-1345-B81A-E34F2BD11A95}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3627,7 +3627,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {50AF5D59-A2D6-CB46-8603-218903F7F187}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3673,7 +3673,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {D3BFE3C1-67C8-C546-BEDA-94C23702E827}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3719,7 +3719,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {D8E54CFE-1571-9E43-9BF9-66DD8B071C79}
       IID 2
       NAME "02 Tricka Technology.mp3"
@@ -3765,7 +3765,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 0
+      SEL 1
       IGUID {F15C4614-8A9A-6B41-AD00-1ACA1C655D6D}
       IID 2
       NAME "02 Tricka Technology.mp3"
